@@ -1,19 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+import type { Track } from "../../types/types";
 
-interface Track {
-    id: number,
-    artist_id: number,
-    album_id: number,
-
-    title: string, 
-
-    audio: string,
-    image: string
-}
 
 interface TrackState {
-    tracks: Track[]
+  tracks: Track[]
 }
 
 const initialState: TrackState = {

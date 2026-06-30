@@ -6,7 +6,7 @@ interface SearchContext {
     setSearch: React.Dispatch<SetStateAction<string>>
 }
 
-const SearchContext = createContext<SearchContext | null>(null)
+export const SearchContext = createContext<SearchContext | null>(null)
 
 interface SearchProvider {
     children: ReactNode

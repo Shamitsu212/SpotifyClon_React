@@ -1,0 +1,41 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    background-color: var(--color-bg);
+    color: var(--color-text);
+
+    max-width: 300px;
+    min-height: 1000px;
+    height: 100%;
+}
+.aside__h{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+
+    font-size: 22px;
+    font-family: var(--font-main);
+}
+.h__button{
+    position: absolute;
+    right: 10px;
+
+    background-color: var(--color-bg-secondary);
+    border: none;
+
+    border-radius: 50%;
+
+    color: var(--font-text);
+
+    width: 35px;
+    height: 35px;
+}
+.aside__playlists{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}

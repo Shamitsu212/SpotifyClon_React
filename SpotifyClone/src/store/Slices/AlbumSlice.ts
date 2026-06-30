@@ -1,13 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-interface Album {
-    id: number,
-    artist_id: number,
-
-    title: string,
-
-    image: string
-}
+import type { Album } from "../../types/types";
 
 interface AlbumState {
     albums: Album[]

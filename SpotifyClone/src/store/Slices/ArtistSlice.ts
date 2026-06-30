@@ -1,13 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 
-interface Artist {
-    id: number,
-    
-    name: string,
-
-    image: string
-}
+import type { Artist } from "../../types/types";
 
 interface ArtistState {
     artists: Artist[]

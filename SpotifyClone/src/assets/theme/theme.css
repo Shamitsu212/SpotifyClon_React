@@ -2,8 +2,8 @@
 [data-theme="night"] {
 
   --color-bg: #0b0b0c;
+  --color-bg-secondary: #282828;
   --color-sidebar: #101113;
-  --color-header: #121212;
   --color-player: #181818;
 
   --color-surface: #171717;
@@ -43,8 +43,8 @@
 [data-theme="day"] {
 
   --color-bg: #f6f7f9;
+  --color-bg-secondary: #F5F5F5;
   --color-sidebar: #ffffff;
-  --color-header: #ffffff;
   --color-player: #ffffff;
 
   --color-surface: #ffffff;

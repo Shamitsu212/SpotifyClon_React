@@ -6,7 +6,7 @@ interface ThemeContext {
     setTheme: React.Dispatch<SetStateAction<string>>
 }
 
-const ThemeContext = createContext<ThemeContext | null>(null)
+export const ThemeContext = createContext<ThemeContext | null>(null)
 
 interface ThemeProvider {
     children: ReactNode
