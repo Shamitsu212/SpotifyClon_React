@@ -7,3 +7,60 @@ a{
     text-decoration: none;
     color: var(--color-text);
 }
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 100%;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 0;
+    height: 0;
+
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+input[type="range"]::-moz-range-track {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 0;
+    height: 0;
+
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+input[type="range"]::-ms-track {
+    background: transparent;
+    border: none;
+    color: transparent;
+}
+
+input[type="range"]::-ms-thumb {
+    width: 0;
+    height: 0;
+
+    border: none;
+    background: transparent;
+}

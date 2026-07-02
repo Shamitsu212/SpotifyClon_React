@@ -3,12 +3,18 @@
     flex-direction: column;
     gap: 5px;
 
-    background-color: var(--color-bg);
+    padding: 5px;
+    margin-left: 10px;
+
+    border-radius: var(--radius-xl);
+
+    background-color: var(--color-bg-secondary);
     color: var(--color-text);
 
-    max-width: 300px;
-    min-height: 1000px;
+    width: 300px;
     height: 100%;
+
+    overflow-y: auto;
 }
 .aside__h{
     position: relative;
@@ -22,14 +28,14 @@
 }
 .h__button{
     position: absolute;
-    right: 10px;
+    right: 2px;
 
-    background-color: var(--color-bg-secondary);
+    background-color: var(--color-bg);
     border: none;
 
     border-radius: 50%;
 
-    color: var(--font-text);
+    color: var(--color-text);
 
     width: 35px;
     height: 35px;

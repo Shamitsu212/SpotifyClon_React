@@ -32,5 +32,5 @@ export interface Playlist {
     name: string,
     image: string,
     
-    tracks: Track[]
+    tracks_ids: number[]
 }

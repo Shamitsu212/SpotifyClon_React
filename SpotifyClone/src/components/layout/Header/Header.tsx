@@ -15,8 +15,10 @@ function Header() {
             <HomeIcon size={38} />
         </Link>
 
+      <div className={styles.header__search}>
         <Search_UI/>
-
+      </div>
+        
     
 
       

@@ -1,0 +1,28 @@
+.tr{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    max-width: 1580px;
+
+    font-size: 2em;
+    font-family: var(--font-main);
+}
+.tr__imageTd{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+td{
+    width: 300px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tr__tdId{
+    width: 30px;
+}

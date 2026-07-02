@@ -1,0 +1,45 @@
+.seek{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    gap: 7px;
+}
+.seek__buttonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonContainer__button{
+    background-color: var(--color-text);
+    border: none;
+
+    border-radius: 50%;
+
+    color: var(--color-bg-secondary);
+
+    width: 45px;
+    height: 45px;
+}
+.seek__inputContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--color-text);
+    font-family: var(--font-main);
+}
+.inputContainer__input{
+    appearance: none;
+    -webkit-appearance: none;
+
+    min-width: 350px;
+    height: 8px;
+
+    border-radius: var(--radius-xl);
+
+    cursor: pointer;
+}

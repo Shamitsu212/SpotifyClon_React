@@ -1,0 +1,20 @@
+.volumeController{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 10px;
+}
+.volumeController__Icon{
+    color: var(--color-text);
+}
+.volumeController__input{
+    appearance: none;
+    -webkit-appearance: none;
+
+    min-width: 200px;
+    height: 6px;
+
+    border-radius: var(--radius-xl);
+
+    cursor: pointer;
+}

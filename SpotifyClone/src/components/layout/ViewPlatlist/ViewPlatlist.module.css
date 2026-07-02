@@ -1,0 +1,11 @@
+.view{
+
+    flex: 1;
+    
+    background-color: var(--color-bg-secondary);
+    border-radius: var(--radius-xl);
+    color: var(--color-text);
+
+    margin-right: 5px;
+    padding: 10px;
+}

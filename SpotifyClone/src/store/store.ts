@@ -5,16 +5,18 @@ import AlbumSlice from './Slices/AlbumSlice'
 import TrackSlice from './Slices/TrackSlice'
 import PlaylistSlice from './Slices/PlaylistSlice'
 import FavoriteSlice from './Slices/FavoriteSlice'
-
+import PlayerSlice from './Slices/PlayerSlice'
 
 
 export const store = configureStore({
     reducer: {
         artists: ArtistSlice,
         albums: AlbumSlice,
-        track: TrackSlice,
+        tracks: TrackSlice,
         playlists: PlaylistSlice,
-        favorite: FavoriteSlice
+        favorite: FavoriteSlice,
+
+        player: PlayerSlice
     }
 })
 
